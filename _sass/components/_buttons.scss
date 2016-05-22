@@ -1,0 +1,120 @@
+.button
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: .75em 1em;
+  border: none;
+  border-radius: .2em;
+  cursor: pointer;
+  background-color: #5c2e49;
+  color: #f3e4ce;
+  //text-shadow: 1px 1px 0 rgba(0,0,0,.35);
+
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+
+  transition: all 0.15s linear;
+
+  font-family: "Circula";
+
+  &:hover
+  {
+    background-color: mix(#f3e4ce, #e9b3ab, 20%);
+    color: #5c2e49;
+  }
+}
+
+  .button--large
+  {
+    font-size: 105%;
+  }
+
+  .button--small
+  {
+    font-size: 95%;
+  }
+
+.button-group
+{
+  .button
+  {
+    float: left;
+    border-radius: 0;
+  }
+
+  .button:first-child
+  {
+    border-radius: .2em 0 0 .2em;
+    border-right: 1px solid mix(#f3e4ce, #e9b3ab, 35%);
+  }
+
+  .button:last-child
+  {
+    border-radius: 0 .2em .2em 0;
+    border-left: 1px solid mix(#f3e4ce, #e9b3ab, 35%);
+  }
+}
+
+.button-outline
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: .75em 1em;
+  border: 1px solid #788b84;
+  border-radius: .2em;
+  cursor: pointer;
+  background-color: #f3e4ce;
+  color: #788b84;
+  //text-shadow: 1px 1px 0 rgba(0,0,0,.35);
+
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+
+  transition: all 0.15s linear;
+
+  font-family: "Circula";
+
+  &:hover
+  {
+    background-color: mix(#f3e4ce, #a8959d, 20%);
+    color: #f3e4ce;
+  }
+}
+
+.button-mauve
+{
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  padding: .75em 1em;
+  border: none;
+  border-radius: .2em;
+  cursor: pointer;
+  background-color: #a8959d;
+  color: #f3e4ce;
+  //text-shadow: 1px 1px 0 rgba(0,0,0,.35);
+
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
+  text-align: center;
+  text-decoration: none;
+
+  transition: all 0.15s linear;
+
+  font-family: "Circula";
+
+  &:hover
+  {
+    background-color: mix(#f3e4ce, #5c2e49, 20%);
+    color: #e9b3ab;
+  }
+}

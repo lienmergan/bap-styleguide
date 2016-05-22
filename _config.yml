@@ -1,0 +1,24 @@
+# Site settings
+title: Styleguide for CompareHCare
+email: lien.mergan@gmail.com
+description: Styleguide for a hybrid app for comparing different healthcare associations in Belgium.
+baseurl: ""
+url: "" # the base hostname & protocol for your site
+
+# Collections
+collections:
+  components:
+    output: false
+
+# Front Matter Defaults
+
+# General settings
+highlighter: pygments
+markdown: kramdown
+kramdown:
+  input: GFM
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+exclude: ['vendor']
