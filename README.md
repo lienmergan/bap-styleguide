@@ -5,4 +5,4 @@ Based on [this](https://github.com/IschaGast/jekyll-styleguide) github example.
 
 # Online version
 
-The online version of this styleguide can be found on Heroku.
+The online version of this styleguide can be found on [Heroku](http://bap-styleguide.herokuapp.com).
